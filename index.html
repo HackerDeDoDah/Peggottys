@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Peggotty's Fish & Chips | Best Traditional Fish & Chips in Hadleigh, Essex</title>
+    <meta name="description" content="Fresh fish fried daily at Peggotty's Fish & Chips in Hadleigh, Essex. Award-winning traditional fish and chips, burgers, pies, and more. Order for collection: 01702 552 562">
+    <meta name="keywords" content="fish and chips Hadleigh, Peggotty's fish and chips, fresh fish Essex, traditional fish and chips, best fish and chips Essex">
+    <meta name="author" content="Peggotty's Fish & Chips">
+    <meta property="og:title" content="Peggotty's Fish & Chips | Hadleigh, Essex">
+    <meta property="og:description" content="Award-winning traditional fish and chips in Hadleigh. Fresh fish fried daily, extensive menu, and special offers available.">
+    <meta property="og:image" content="images/fishook.jpg">
+    <meta property="og:url" content="https://peggottys-hadleigh.co.uk">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://peggottys-hadleigh.co.uk">
+    <link rel="stylesheet" href="https://use.typekit.net/phq0uhy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pattaya&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" as="image" href="images/fishook.png">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>
+                Peggotty's
+            </h1>
+            <h3>
+                TRADITIONAL FISH & CHIPS
+            </h3>
+            <h3 id="fresh">
+                Fresh Fish Fried Every Day
+            </h3>
+        </div>
+        <div class="fish">
+            <img src="images/fishook.png" alt="fish" id="fish">
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Find Us</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div id="home"></div>
+    
+    <div class="main">
+        <section class="offers" id="offers">
+            <h2>Special Offers</h2>
+            <p>Check out our special offers!</p>
+            <ul class="offer-list">
+                <li>Lunch Time Special.<br>Special Cod & Chips<br>£8.95!</li>
+                <li>10% Discount<br>for Large Party<br>Orders!</li>
+            </ul>
+            <ul class="offer-list">
+                <li class="facebook-offers">Check our Facebook page for daily specials!<br><a href="https://www.facebook.com/p/Peggottys-Fish-and-Chips-Hadleigh-100056328529343/" target="_blank"><i class="fab fa-facebook fa-2x"></i><p>Facebook</p></a></li>
+            </ul>
+
+            <div class="contact">
+                <h2>Telephone Orders Welcome</h2>
+                <p>Collection Only</p>
+                <h2>
+                    <a href="tel:01702552562" class="phone-link">
+                        <i class="fas fa-phone"></i> 01702 552 562
+                    </a>
+                </h2>
+                <div id="menu"></div>
+            </div>
+        </section>
+
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="fish">Fish</button>
+                <button class="filter-btn" data-filter="burgers">Burgers</button>
+                <button class="filter-btn" data-filter="pies">Pies</button>
+                <button class="filter-btn" data-filter="kids">Kids Menu</button>
+            </div>
+            
+            <!-- Fish Section -->
+            <table class="menu-table" data-category="fish">
+                <thead>
+                    <tr>
+                        <th colspan="4">FISH</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="prices">
+                        <th> </th>
+                        <th>Small</th>
+                        <th>Medium</th>
+                        <th>Large</th>
+                    </tr>
+                    <tr>
+                        <td>Cod</td>
+                        <td data-label="Small">£8.60</td>
+                        <td data-label="Medium">£9.90</td>
+                        <td data-label="Large">£11.90</td>
+                    </tr>
+                    <tr>
+                        <td>Haddock</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£9.90</td>
+                        <td data-label="Large">£11.80</td>
+                    </tr>
+                    <tr>
+                        <td>Plaice</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£9.80</td>
+                        <td data-label="Large">-</td>
+                    </tr>
+                    <tr>
+                        <td>Rock</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£9.90</td>
+                        <td data-label="Large">-</td>
+                    </tr>
+                    <tr>
+                        <td>Skate (Wing/Middle)</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£11.50</td>
+                        <td data-label="Large">-</td>
+                    </tr>
+                    <tr>
+                        <td>Cod Bites (4PCS)</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£7.30</td>
+                        <td data-label="Large">-</td>
+                    </tr>
+                    <tr>
+                        <td>Cod Bites (6PCS)</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£10.30</td>
+                        <td data-label="Large">-</td>
+                    </tr>
+                    <tr>
+                        <td>Fish Cake</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£2.95</td>
+                        <td data-label="Large">-</td>
+                    </tr>
+                    <tr>
+                        <td>Cod Roe</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£2.95</td>
+                        <td data-label="Large">-</td>
+                    </tr>
+                    <tr>
+                        <td>Scampi</td>
+                        <td data-label="Small">-</td>
+                        <td data-label="Medium">£7.90</td>
+                        <td data-label="Large">-</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Burgers Section -->
+            <table class="menu-table" data-category="burgers">
+                <thead>
+                    <tr>
+                        <th colspan="2">BURGERS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1/4 Pounder</td>
+                        <td data-label="Price">£4.70</td>
+                    </tr>
+                    <tr>
+                        <td>1/4 Pounder Cheese</td>
+                        <td data-label="Price">£4.90</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 Pounder</td>
+                        <td data-label="Price">£6.60</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 Pounder Cheese</td>
+                        <td data-label="Price">£6.80</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Breast Fillet</td>
+                        <td data-label="Price">£6.60</td>
+                    </tr>
+                    <tr>
+                        <td>Veggie Supreme Burger</td>
+                        <td data-label="Price">£5.50</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Pies & Sausages Section -->
+            <table class="menu-table" data-category="pies">
+                <thead>
+                    <tr>
+                        <th colspan="2">PIES & SAUSAGES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chicken & Mushroom Pie</td>
+                        <td data-label="Price">£4.25</td>
+                    </tr>
+                    <tr>
+                        <td>Minced Beef & Onion Pie</td>
+                        <td data-label="Price">£4.25</td>
+                    </tr>
+                    <tr>
+                        <td>Steak & Kidney Pie</td>
+                        <td data-label="Price">£4.25</td>
+                    </tr>
+                    <tr>
+                        <td>Plain Sausage</td>
+                        <td data-label="Price">£2.85</td>
+                    </tr>
+                    <tr>
+                        <td>Battered Sausage</td>
+                        <td data-label="Price">£2.95</td>
+                    </tr>
+                    <tr>
+                        <td>Saveloy</td>
+                        <td data-label="Price">£2.85</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Chicken Section -->
+            <table class="menu-table" data-category="chicken">
+                <thead>
+                    <tr>
+                        <th colspan="2">CHICKEN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chicken Nuggets (5PCS)</td>
+                        <td data-label="Price">£3.85</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Nuggets (9PCS)</td>
+                        <td data-label="Price">£5.95</td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Fillet Bites (6PCS)</td>
+                        <td data-label="Price">£5.85</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 Chicken</td>
+                        <td data-label="Price">£6.95</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 Chicken & Chips</td>
+                        <td data-label="Price">£8.70</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Kids Menu Section -->
+            <table class="menu-table" data-category="kids">
+                <thead>
+                    <tr>
+                        <th colspan="2">KIDS MENU</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cheese Burger</td>
+                        <td data-label="Price">£5.95</td>
+                    </tr>
+                    <tr>
+                        <td>Nuggets (4PCS)</td>
+                        <td data-label="Price">£5.95</td>
+                    </tr>
+                    <tr>
+                        <td>Sausage or Saveloy</td>
+                        <td data-label="Price">£5.95</td>
+                    </tr>
+                    <tr>
+                        <td>Cod Fish Fingers (2PCS)</td>
+                        <td data-label="Price">£5.95</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Sides Section -->
+            <table class="menu-table" data-category="sides">
+                <thead>
+                    <tr>
+                        <th colspan="2">SIDES & EXTRAS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chips</td>
+                        <td data-label="Price">£3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Onion Rings (10PCS)</td>
+                        <td data-label="Price">£3.30</td>
+                    </tr>
+                    <tr>
+                        <td>Curry Spring Roll</td>
+                        <td data-label="Price">£3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Vegetable Spring Roll</td>
+                        <td data-label="Price">£3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Mushy Peas</td>
+                        <td data-label="Price">£2.30</td>
+                    </tr>
+                    <tr>
+                        <td>Curry Sauce</td>
+                        <td data-label="Price">£2.30</td>
+                    </tr>
+                    <tr>
+                        <td>Mozzarella Sticks (6PCS)</td>
+                        <td data-label="Price">£4.95</td>
+                    </tr>
+                    <tr>
+                        <td>Chip Butty</td>
+                        <td data-label="Price">£3.90</td>
+                    </tr>
+                    <tr>
+                        <td>Bread Roll</td>
+                        <td data-label="Price">£1.30</td>
+                    </tr>
+                    <tr>
+                        <td>Pickled Onion</td>
+                        <td data-label="Price">£0.90</td>
+                    </tr>
+                    <tr>
+                        <td>Pickled Gherkin</td>
+                        <td data-label="Price">£1.10</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Drinks & Sauces Section -->
+            <table class="menu-table" data-category="drinks">
+                <thead>
+                    <tr>
+                        <th colspan="2">DRINKS & SAUCES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Can Drink</td>
+                        <td data-label="Price">£1.60</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Vinegar</td>
+                        <td data-label="Price">£2.50</td>
+                    </tr>
+                    <tr>
+                        <td>Bottle of Onion Vinegar</td>
+                        <td data-label="Price">£2.50</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Ketchup</td>
+                        <td data-label="Price">£2.50</td>
+                    </tr>
+                    <tr>
+                        <td>Sachets of Sauce (Ketchup, Mayo, Tartar)</td>
+                        <td data-label="Price">£0.40</td>
+                    </tr>
+                    <tr>
+                        <td>Pots of Sauce (Burger, Mayonnaise)</td>
+                        <td data-label="Price">£2.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="about"></div>
+        </section>
+
+
+        <section class="middle">
+            <div class="about">
+                <h2>About Us</h2>
+                <p>Welcome to Peggotty's, where we serve the finest fish and chips in town! Our fish is sourced fresh daily, ensuring that you get the best quality with every bite. We pride ourselves on our traditional cooking methods and our commitment to customer satisfaction.</p>
+                <p>We guarantee a delicious experience that will keep you coming back for more!</p>
+            </div>
+
+            <div class="awards">
+                <h2>Awards</h2>
+                <p>We are proud to have received numerous awards for our quality and service. Our commitment to excellence has been recognized by various food critics and organizations.</p>
+                <ul class="awards-list">
+                    <li>2023 'Your Favourite' Award Winner - Echo</li>
+                    <li>Food & Drink Awards 2021 Winner - Echo</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="star">
+            <img src="images/Screenshot 2025-05-08 171045.png" alt="5 Star">
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Opening Times</h2>
+            <div class="opening-hours">
+                <table class="hours-table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Monday - Saturday</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>11:30am - 2:00pm</td>
+                        <td>4:00pm - 9:00pm</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="contact-info">
+                <h3>Find Us</h3>
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://goo.gl/maps/YOUR_MAPS_LINK" target="_blank">
+                        132 High Street<br>
+                        Hadleigh<br>
+                        Essex, SS7 2PB
+                    </a>
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:01702552562">01702 552 562</a>
+                </p>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.783431110881!2d0.6066082!3d51.553171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8dccf0b5b05af%3A0x85527957eb4f42ff!2s132%20High%20St%2C%20Hadleigh%2C%20Benfleet%20SS7%202PB!5e0!3m2!1sen!2suk!4v1682861234567!5m2!1sen!2suk"
+                    width="100%"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </div>
+
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <img src="images/fishook.png" alt="fish" id="footer-fish">
+        </div>
+        <div>
+            <p>&copy; 2025 Peggotty's Fish & Chips. All rights reserved.</p>
+            <p>Website by Christopher Day (<a href="mailto:chrisdaypro@protonmail.com">ChrisDayPro@protonmail.com</a>)</p>
+            <p>Powered by IONOS&trade;</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/p/Peggottys-Fish-and-Chips-Hadleigh-100056328529343/" target="_blank"><i class="fab fa-facebook fa-2x"></i><p>Facebook</p></a>
+        </div>
+    </footer>
+
+    <div id="cookie-consent" class="cookie-consent">
+        <div class="cookie-content">
+            <p>We use cookies and other data to:</p>
+            <ul class="cookie-purposes">
+                <li>Deliver and maintain our services</li>
+                <li>Remember your preferences</li>
+                <li>Measure how people use our site so we can improve it</li>
+            </ul>
+            <div class="cookie-buttons">
+                <button id="customize-cookies" class="cookie-btn secondary">Customize</button>
+                <button id="accept-cookies" class="cookie-btn">Accept all</button>
+            </div>
+            <p class="cookie-learn-more">By clicking "Accept all", you consent to our use of cookies. You can also <a href="#" id="view-policy">view our cookie policy</a> to learn more.</p>
+        </div>
+        <div id="cookie-settings" class="cookie-settings hidden">
+            <h3>Cookie Settings</h3>
+            <div class="cookie-option">
+                <label>
+                    <input type="checkbox" id="essential-cookies" checked disabled>
+                    Essential cookies (Required)
+                </label>
+                <p>These cookies are necessary for the website to function and cannot be disabled.</p>
+            </div>
+            <div class="cookie-option">
+                <label>
+                    <input type="checkbox" id="analytics-cookies" checked>
+                    Analytics cookies
+                </label>
+                <p>Help us understand how visitors interact with our website.</p>
+            </div>
+            <div class="cookie-buttons">
+                <button id="save-preferences" class="cookie-btn">Save preferences</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
